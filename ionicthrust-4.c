@@ -18,7 +18,7 @@ printf("Enter the ionizing current     : ");
 scanf("%lg", &current);
 printf("Enter the accelerating voltage : ");
 scanf("%lg", &voltage);
-printf("\n Hydrogen : 1.67328e-24Kg\n Helium : 6.644316e-24Kg\n Nitrogen : 23.251122e-24Kg\n Oxygen : 26.55e-24Kg\n Argon : 66.336269e-24Kg\n Krypton : 139.15207e-24Kg\n Xenon : 218.02062e-24Kg\n\n");
+
 printf("Enter atomic mass of gas in Kg : ");
 scanf("%lg", &mass);
 
