@@ -34,10 +34,10 @@ charge=current*time;
 printf("Specific Impulse is : %.6e Isp\n", 1/9.8 * sqrt(2 * (charge/mass)) * voltage);
 //printf("Specific Impulse is : %.6e Isp\n", 1/9.8 * sqrt(2 * (charge/mass)) * voltage);
 
-printf("Electrostatic thrust is : %.6e N\n", current*sqrt((2*voltage*mass)/Ce));
+printf("Electrostatic thrust is : %.6e N\n", current*sqrt((2*voltage*Ce)/mass));
 
-printf("Conversions: newton to gram force : %.6e g\n", current*sqrt((2*voltage*mass)/Ce) * 101.97162);
-printf("Conversions: newton to pound force : %.6e lbf\n", current*sqrt((2*voltage*mass)/Ce) * 0.22480894);
+printf("Conversions: newton to gram force : %.6e g\n", current*sqrt((2*voltage*Ce)/mass) * 101.97162);
+printf("Conversions: newton to pound force : %.6e lbf\n", current*sqrt((2*voltage*Ce)/mass) * 0.22480894);
 return 0;
 }
 
